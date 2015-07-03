@@ -7,4 +7,4 @@ ADD /hello-flask /hello-flask
 RUN pip install -r /hello-flask/requirements.txt
 WORKDIR /hello-flask
 CMD ["python","app.py"]
-EXPOSE 5000
+EXPOSE 80
